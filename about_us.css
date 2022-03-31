@@ -12,7 +12,7 @@ h1{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url(images/capitol.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)), url(images/capitol.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -136,7 +136,6 @@ nav .fa{
     text-align: left;
     background: #fff3f3;
     padding: 25px;
-    cursor: pointer;
     display: flex;
 }
 .testimonials-col img{
@@ -165,8 +164,6 @@ nav .fa{
     padding: 50px
 }
 
-
-
 .images{
     background-color: rgb(255, 255, 255);
 }
@@ -182,4 +179,66 @@ nav .fa{
     padding: 30px;
 }
 
+/*----- register -----*/
+.register{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.register p{
+    padding: 25px 0;
+}
 
+/*----- Newsletter -----*/
+.newsletter{
+    background-image: linear-gradient(rgb(59, 59, 59), rgb(19, 19, 19));
+    padding: 100px 0;
+}
+.info{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.info h1{
+    font-size: 30px;
+    color: #fff3f3;    
+}
+.info p{
+    font-size: 20px;
+    color: #fff3f3;
+    padding-top: 10px;
+}
+
+.email{
+    padding: 20px;
+    display: grid;
+    grid-gap: 16px;
+}
+.inputEmail{
+    width: 50%;
+    margin: auto;
+}
+.inputEmail{
+    width: 50%;
+    margin: auto;
+}
+
+.submit-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 20%;
+    margin: auto;
+}
+.submit-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
